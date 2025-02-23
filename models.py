@@ -34,13 +34,13 @@ class TaskManager:
 
 if __name__ == '__main__':
     task_manager = TaskManager()
-    task_manager.add_task("Сделать ДЗ по школе", "Сделать дз по алгебре и русскому")
-    task_manager.add_task("Сделать ДЗ по айти школе", "Сделать проект и загрузить в майстат")
+    task_manager.add_task("купить хлеб", "купить пепси)
+    task_manager.add_task("встретиться с другом", "погулять")
 
-    task_manager.mark_as_done("Сделать ДЗ по школе")
+    task_manager.mark_as_done("купить хлеб")
     task_manager.show_tasks()
 
-    task_manager.remove_task("Сделать ДЗ по школе")  # типо я уже сделал дз по школе и я его не считаю
+    task_manager.remove_task("купить хлеб")  # типо я уже сделал дз по школе и я его не считаю
     task_manager.show_tasks()  # все что осталось сделать
 
     print(f"{task_manager}\nСПАСИБО ЗА ВНИМАНИЕ К МОЕМУ ТВОРЕНИЮ:)")
